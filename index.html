@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link StyleSheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Login</title>
+</head>
+<body>
+    <!-- --------------- Main Container Start ----------------- -->
+    <div class="container">
+        <!-- --------------- Card Start ----------------- -->
+        <div class="card">
+            <!-- --------------- Inner Card Start ----------------- -->
+            <div class="inner-card" id="inner-card">
+                <!-- --------------- Card Front Start ----------------- -->
+                <div class="card-front">
+                    <h2>LOGIN</h2>
+                    <form>
+                        <input type="email" class="input-box" placeholder="Email" required>
+                        <input type="password" class="input-box" placeholder="Password" required>
+                        <button type="submit" class="submit-btn">LOGIN</button>
+                        <input type="checkbox"><span>Remembr Me</span>
+                    </form>
+                    <button type="button" class="btn" onclick="openRegister()">I'm new here</button>
+                    <a href="">Forgot Password?</a>
+                </div>
+                <!-- --------------- Card Front End ----------------- -->
+                <!-- --------------- Card Back Start ----------------- -->
+                <div class="card-back">
+                    <h2>REGISTER</h2>
+                    <form>
+                        <input type="text" class="input-box" placeholder="Username" required>
+                        <input type="email" class="input-box" placeholder="Email" required>
+                        <input type="password" class="input-box" placeholder="Password" required>
+                        <button type="submit" class="submit-btn">LOGIN</button>
+                        <input type="checkbox"><span>Remembr Me</span>
+                    </form>
+                    <button type="button" class="btn" onclick="openLogin()">I've an account</button>
+                    <a href="">Forgot Password?</a>
+                </div>
+                <!-- --------------- Card Back Start ----------------- -->
+            </div>
+            <!-- --------------- Inner Card End ----------------- -->
+        </div>
+        <!-- --------------- Card End ----------------- -->
+    </div>
+    <!-- --------------- Main Container End ----------------- -->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
